@@ -1,7 +1,6 @@
 const buttonSoft = document.querySelector('#btn-soft');
 const buttonMedium = document.querySelector('#btn-medium');
 const buttonHard = document.querySelector('#btn-hard');
-
 const countdown = document.querySelector('#countdown');
 
 let timerId = null;
