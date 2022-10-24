@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 10px;
+	border: 1px solid #FF731D;
+}
+
+.btn+.btn {
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background: #FF731D;
+    color: #fff;
+}
+
+.container-countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#soft , #medium , #hard {
+    display: none;
+}
