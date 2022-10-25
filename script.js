@@ -47,8 +47,9 @@ function changeBtnCapture(btn) {
 }
 
 function calcilateTimer() {
-    if(amountTime <= 0){
+    if(amountTime < 0){
         stopTimer();
+        amountTime = 0;
     }
     let minutes = Math.floor(amountTime / 60);
     let seconds = amountTime % 60;
